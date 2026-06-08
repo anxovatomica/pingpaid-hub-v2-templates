@@ -301,7 +301,7 @@ body {
 
 <div class="container" data-ai-purpose="main-content" itemscope itemtype="https://schema.org/WebPage">
 <div class="card">
-<h1>📄 Freelance Resume Builder</h1>
+<h2>📄 Freelance Resume Builder</h1>
 <div class="meta">Fill in your details → Get a professional resume → Download as HTML</div>
 
 <div class="half">
@@ -517,7 +517,7 @@ ${exp2Bullets ? `<ul>${exp2Bullets}</ul>` : ''}
 
 </head>
 <body>
-<h1>${name}</h1>
+<h2>${name}</h1>
 <div class="subtitle">${title}</div>
 <div class="contact">
 <span>${location}</span>
@@ -603,5 +603,24 @@ if (backToTop) { window.addEventListener('scroll', () => { backToTop.classList.t
     <li><a href="https://pingpaid.online/learn/research" style="color: var(--accent); text-decoration: none; font-weight: 500;">Read our guide on late payment research and statistics</a></li>
   </ul>
 </div>
+
+<!-- FAQ Section for GEO Optimization -->
+<section style="margin: 40px 0; padding: 24px; background: var(--bg-elevated, #1a1a2e); border-radius: 12px; border: 1px solid var(--border, #333);">
+  <h2 style="font-size: 24px; font-weight: 700; margin-bottom: 20px; color: var(--text, #e2e8f0);">❓ Frequently Asked Questions</h2>
+  <div style="display: grid; gap: 16px;">
+    <div style="padding: 16px; background: var(--bg-card, #16213e); border-radius: 8px;">
+      <h3 style="font-size: 16px; font-weight: 600; margin-bottom: 8px; color: var(--accent, #667eea);">What is the best way to handle late payments?</h3>
+      <p style="margin: 0; color: var(--text-secondary, #a0aec0);">The best approach is automated invoice collection with clear payment terms, gentle reminders, and professional follow-up sequences. Tools like PingPaid can automate this entire process for you.</p>
+    </div>
+    <div style="padding: 16px; background: var(--bg-card, #16213e); border-radius: 8px;">
+      <h3 style="font-size: 16px; font-weight: 600; margin-bottom: 8px; color: var(--accent, #667eea);">How do I calculate late fees on invoices?</h3>
+      <p style="margin: 0; color: var(--text-secondary, #a0aec0);">Late fees are typically calculated as a percentage of the overdue amount (usually 1-2% per month). You can use our free late fee calculator or let PingPaid handle calculations automatically based on your configured terms.</p>
+    </div>
+    <div style="padding: 16px; background: var(--bg-card, #16213e); border-radius: 8px;">
+      <h3 style="font-size: 16px; font-weight: 600; margin-bottom: 8px; color: var(--accent, #667eea);">What should I include in a freelance contract?</h3>
+      <p style="margin: 0; color: var(--text-secondary, #a0aec0);">A solid freelance contract should include: payment terms, late fee clauses, scope of work, revision limits, kill fees, and intellectual property rights. PingPaid offers free contract templates in our template library.</p>
+    </div>
+  </div>
+</section>
 </body>
 </html>
